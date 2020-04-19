@@ -1,0 +1,24 @@
+html, body {
+	background-color: #333;
+	color: #eee;
+	margin: 10px;
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+canvas {
+	display: block;
+}
+
+.sliderLabel, .checkbox {
+	margin: 6px 10px 0 0;
+	display: inline-block;
+}
+
+.slider, .checkbox {
+	margin-right: 30px;
+}
+
+.checkbox input {
+	margin-right: 8px;
+}
