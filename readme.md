@@ -1,6 +1,8 @@
 # Boids - Flocking Simulation
 
 This implementation is based on Daniel Shiffman's CodingTrain [video](https://www.youtube.com/watch?v=mhjuuHl6qHM).
+
+Demo: https://hortom.github.io/boids-p5/
   
 There are some minor optimisations to get a higher number (1000+) agents to be handled.
 * Avoid creating new Vector object if possible.
