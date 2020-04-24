@@ -140,8 +140,12 @@ class Agent {
 	}
 
 	show() {
+		// strokeWeight(!this.debug ? 6 : 8);
+		// stroke(!this.debug ? (!this.isNear ? '#aaa' : '#f0f' ): '#ff0');
+		// point(this.position.x, this.position.y);
+
 		strokeWeight(!this.debug ? 1 : 2);
-		stroke(!this.debug ? (!this.isNear ? '#ddd8' : '#f0f8' ): '#ff0');
+		stroke(!this.debug ? (!this.isNear ? '#aaa' : '#f0f' ): '#ff0');
 		//fill(30);
 		noFill(); // It is more performant without filling
 		const r = 6;
